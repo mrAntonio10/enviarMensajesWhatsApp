@@ -6,7 +6,7 @@
     ** Para el input de numTelefono ejm Bolivia: 5916.......8
         No es necesario poner + y el codigo de tu region, ni espacios.
 ## Para utilizar Flask debes de:  1. Instalar Flask : 
-        * pip install Flask
+        * `pip install Flask`
 	Nota: los formularios deben de estar dentro de la carpeta "templates"
 
        
@@ -20,7 +20,7 @@
         *. virtualenv env
         *. env\Scripts\activate.bat
         *. pip install virtualenvwrapper-win
-	  *. pip install pywhatkit
+	    *. pip install pywhatkit
 
    ## 3. Levantar el form:
         * Ejecutar el archivo "envio.py"
