@@ -4,10 +4,10 @@
     DATO: No se envia automáticamente.
 
  	**PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS
-#    1. Copiar el fichero "envio.py" de apache en la ruta > Apache24/cgi-bin. 
+##    1. Copiar el fichero "envio.py" de apache en la ruta > Apache24/cgi-bin. 
 
         Dirigete hacia la ruta y abre tu terminal
- #   2. Manejar las librerias de pywhat
+ ##   2. Manejar las librerias de pywhat
         **INICIA TU CMD O TERMINAL
             **procede a copiar los siguientes codigos
         *. pip install virtualenv
@@ -16,7 +16,7 @@
         *. pip install virtualenvwrapper-win
 	*. pip install pywhatkit
 
-  #  3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
+  ##  3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
 	Ruta: Apache24/conf/httpd.conf
 	
 	Abrelo en un editor de texto y verifica que la siguiente linea esté descomentada: 
