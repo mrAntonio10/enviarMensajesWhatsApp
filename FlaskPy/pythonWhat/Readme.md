@@ -12,18 +12,19 @@
 	Nota: los formularios deben de estar dentro de la carpeta "templates"
 
        
-  ##  2. Manejar las librerias de pywhat
+##  2. Manejar las librerias de pywhat
    	SI QUIERES CREAR OTRO PROYECTO PARA UTILIZAR PYWHAT
         **INICIA TU CMD O TERMINAL
             ** Crea una carpeta: mkdir <nombre_carpeta>
-            ** Ingresa a ella: cd <nombre_carpeta>
-            **procede a copiar los siguientes codigos
-        *. pip install virtualenv
-        *. virtualenv env
-        *. env\Scripts\activate.bat
-        *. pip install virtualenvwrapper-win
-	    *. pip install pywhatkit
-
+	** Ingresa a ella: cd <nombre_carpeta>
+** procede a copiar los siguientes codigos
+```
+         pip install virtualenv
+         virtualenv env
+         env\Scripts\activate.bat
+         pip install virtualenvwrapper-win
+	     pip install pywhatkit
+```
    ## 3. Levantar el form:
         * Ejecutar el archivo "envio.py"
         * en tu navegador ingresar a: localhost:5000
