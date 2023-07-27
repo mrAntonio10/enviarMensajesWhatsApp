@@ -1,4 +1,4 @@
-##Este es un formulario simple para enviar mensajes por whats
+# Este es un formulario simple para enviar mensajes por whats
     Este mini proyecto se encarga de abrir en tu navegador "WHATSAPP.WEB" (Debes de iniciar sesion en tu navegador por defecto)
     El mensaje se ejecutará de tu hora actual +1 minuto.
     DATO: No se envia automáticamente.
