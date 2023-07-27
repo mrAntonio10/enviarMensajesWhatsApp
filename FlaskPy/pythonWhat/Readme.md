@@ -5,8 +5,7 @@
 
     ** Para el input de numTelefono ejm Bolivia: 5916.......8
         No es necesario poner + y el codigo de tu region, ni espacios.
-## Para utilizar Flask debes de:
-    1. Instalar Flask : 
+## Para utilizar Flask debes de:  1. Instalar Flask : 
         * pip install Flask
 
         SI QUIERES CREAR OTRO PROYECTO PARA UTILIZAR PYWHAT
