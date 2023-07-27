@@ -19,10 +19,15 @@
 	** Ingresa a ella: cd <nombre_carpeta>
 	** procede a copiar los siguientes codigos
 ```
+
 pip install virtualenv
+
 virtualenv env
+
 env\Scripts\activate.bat
+
 pip install virtualenvwrapper-win
+
 pip install pywhatkit
 ```
    ## 3. Levantar el form:
