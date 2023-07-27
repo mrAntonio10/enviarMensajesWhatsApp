@@ -7,6 +7,7 @@
         No es necesario poner + y el codigo de tu region, ni espacios.
 ## Para utilizar Flask debes de:  1. Instalar Flask : 
         * pip install Flask
+	Nota: los formularios deben de estar dentro de la carpeta "templates"
 
        
   ##  2. Manejar las librerias de pywhat
