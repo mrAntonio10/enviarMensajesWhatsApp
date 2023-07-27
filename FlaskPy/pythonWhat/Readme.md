@@ -22,7 +22,6 @@
 	  *. pip install pywhatkit
 
    ## 3. Levantar el form:
-        * 
         * Ejecutar el archivo "envio.py"
         * en tu navegador ingresar a: localhost:5000
 Version de Python Utilizada: 3.11.1
