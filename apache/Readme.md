@@ -24,5 +24,5 @@
 Cualquier consulta contactame en mi cuenta o a mi correo:
 	marcorocadota@gmail.com :D
 
-Santa Cruz - Bolivia : 26/Julio/2023.
+Santa Cruz - Bolivia : 27/Julio/2023.
 Marco Antonio Roca Montenegro.
