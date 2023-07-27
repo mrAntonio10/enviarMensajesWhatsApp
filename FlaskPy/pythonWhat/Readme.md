@@ -8,8 +8,9 @@
 ## Para utilizar Flask debes de:  1. Instalar Flask : 
         * pip install Flask
 
-        SI QUIERES CREAR OTRO PROYECTO PARA UTILIZAR PYWHAT
+       
   ##  2. Manejar las librerias de pywhat
+   	SI QUIERES CREAR OTRO PROYECTO PARA UTILIZAR PYWHAT
         **INICIA TU CMD O TERMINAL
             ** Crea una carpeta: mkdir <nombre_carpeta>
             ** Ingresa a ella: cd <nombre_carpeta>
