@@ -17,13 +17,13 @@
         **INICIA TU CMD O TERMINAL
             ** Crea una carpeta: mkdir <nombre_carpeta>
 	** Ingresa a ella: cd <nombre_carpeta>
-** procede a copiar los siguientes codigos
+	** procede a copiar los siguientes codigos
 ```
-         pip install virtualenv
-         virtualenv env
-         env\Scripts\activate.bat
-         pip install virtualenvwrapper-win
-	     pip install pywhatkit
+pip install virtualenv
+virtualenv env
+env\Scripts\activate.bat
+pip install virtualenvwrapper-win
+pip install pywhatkit
 ```
    ## 3. Levantar el form:
         * Ejecutar el archivo "envio.py"
