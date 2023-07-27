@@ -3,7 +3,7 @@
     El mensaje se ejecutará de tu hora actual +1 minuto.
     DATO: No se envia automáticamente.
  
- ** PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS **
+ **PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS**
 ##    1. Copiar el fichero "envio.py" de apache en la ruta > Apache24/cgi-bin. 
 
  ##   2. Manejar las librerias de pywhat
