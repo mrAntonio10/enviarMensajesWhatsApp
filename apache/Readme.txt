@@ -3,17 +3,12 @@
     El mensaje se ejecutará de tu hora actual +1 minuto.
     DATO: No se envia automáticamente.
 
-    ** Para el input de numTelefono ejm Bolivia: 5916.......8
-        No es necesario poner + y el codigo de tu region, ni espacios.
-Para utilizar Flask debes de:
-    1. Instalar Flask : 
-        * pip install Flask
+ 	**PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS
+    1. Copiar el fichero "envio.py" de apache en la ruta > Apache24/cgi-bin. 
 
-        SI QUIERES CREAR OTRO PROYECTO PARA UTILIZAR PYWHAT
+        Dirigete hacia la ruta y abre tu terminal
     2. Manejar las librerias de pywhat
         **INICIA TU CMD O TERMINAL
-            ** Crea una carpeta: mkdir <nombre_carpeta>
-            ** Ingresa a ella: cd <nombre_carpeta>
             **procede a copiar los siguientes codigos
         *. pip install virtualenv
         *. virtualenv env
@@ -21,10 +16,14 @@ Para utilizar Flask debes de:
         *. pip install virtualenvwrapper-win
 	*. pip install pywhatkit
 
-    3. Levantar el form:
-        * 
-        * Ejecutar el archivo "envio.py"
-        * en tu navegador ingresar a: localhost:5000
-Version de Python Utilizada: 3.11.1
-Santa Cruz - Bolivia : 27/Julio/2023.
+    3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
+	Ruta: Apache24/conf/httpd.conf
+	
+	Abrelo en un editor de texto y verifica que la siguiente linea esté descomentada: 
+		-> LoadModule cgi_module modules/mod_cgi.so (Sin # por delante).
+
+Cualquier consulta contactame en mi cuenta o a mi correo:
+	marcorocadota@gmail.com :D
+
+Santa Cruz - Bolivia : 26/Julio/2023.
 Marco Antonio Roca Montenegro.

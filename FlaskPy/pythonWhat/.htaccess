@@ -1,4 +1,0 @@
-# .htaccess
-
-AddHandler cgi-script .py
-Options +ExecCGI
