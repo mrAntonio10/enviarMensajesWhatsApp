@@ -15,7 +15,7 @@
          virtualenv env
          env\Scripts\activate.bat
          pip install virtualenvwrapper-win
-	       pip install pywhatkit
+	pip install pywhatkit
 ```
 
   ##  3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
