@@ -3,17 +3,20 @@
     El mensaje se ejecutará de tu hora actual +1 minuto.
     DATO: No se envia automáticamente.
 
- 	**PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS
+ ** PARA UTILIZARLO EN APACHE DEBES SEGUIR LOS SIGUIENTES PASOS
 ##    1. Copiar el fichero "envio.py" de apache en la ruta > Apache24/cgi-bin. 
 
  ##   2. Manejar las librerias de pywhat
         **INICIA TU CMD O TERMINAL
             **procede a copiar los siguientes codigos
-        *. pip install virtualenv
-        *. virtualenv env
-        *. env\Scripts\activate.bat
-        *. pip install virtualenvwrapper-win
-	      *. pip install pywhatkit
+
+```
+         pip install virtualenv
+         virtualenv env
+         env\Scripts\activate.bat
+         pip install virtualenvwrapper-win
+	       pip install pywhatkit
+```
 
   ##  3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
 	Ruta: Apache24/conf/httpd.conf
