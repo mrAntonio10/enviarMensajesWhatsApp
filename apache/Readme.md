@@ -18,7 +18,7 @@
   ##  3. Y PASO MAS IMPORTANTE!! REVISA EL ARCHIVO HTTPD.CONF DE APACHE24
 	Ruta: Apache24/conf/httpd.conf
 	
-	Abrelo en un editor de texto y verifica que la siguiente linea esté descomentada: 
+	Abre el fichero en un editor de texto y verifica que la siguiente linea esté descomentada: 
 		-> LoadModule cgi_module modules/mod_cgi.so (Sin # por delante).
 
 Cualquier consulta contactame en mi cuenta o a mi correo:
