@@ -19,7 +19,7 @@
         *. virtualenv env
         *. env\Scripts\activate.bat
         *. pip install virtualenvwrapper-win
-	*. pip install pywhatkit
+	  *. pip install pywhatkit
 
    ## 3. Levantar el form:
         * 
