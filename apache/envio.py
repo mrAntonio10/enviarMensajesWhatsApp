@@ -20,8 +20,8 @@ def what(numTel, mensaje, hora, minuto):
             hora_str = str(hora).zfill(2)
             minuto_str = str(minuto).zfill(2)
 
-            # Enviar el mensaje usando pywhatkit
-            wm.sendwhatmsg(f"+{numTel}", mensaje, hora, minuto)
+             # Enviar el mensaje usando pywhatkit
+            wm.sendwhatmsg(f"+{numTel}", mensaje, hora, minuto, wait_time=20)
             print(f"Mensaje programado para enviar a las {hora_str}:{minuto_str} a {numTel}:")
             print(mensaje)
         else:

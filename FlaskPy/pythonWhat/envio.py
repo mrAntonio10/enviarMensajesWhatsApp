@@ -1,31 +1,12 @@
-#Libreria
-from flask import Flask, render_template, request
+#!C:\Python\python.exe
+#Librerias
+import cgi
 import pywhatkit as wm
 import datetime
 
-#Instancia de Flask
-app = Flask(__name__)
+print("Content-type: text/html\n")
 
-@app.route('/')
-def template():
-    return render_template("form.html")
-
-@app.route('/mensaje', methods=['POST'])
-def mensaje():
-    #Obtenemos los parametros
-    sendMsg = request.form['mensaje']
-    sendNum = request.form['numTel']
-
-    fecha_hora_actual = datetime.datetime.now()
-    # Obtener la hora actual en formato de 24 horas
-    hora_actual = fecha_hora_actual.hour
-    # Obtener el minuto actual
-    minuto_actual = fecha_hora_actual.minute
-
-    #Ejecuta pywhat
-    what(sendNum, sendMsg, hora_actual,minuto_actual+1)
-    return "Mensaje enviado " +sendMsg
-
+form = cgi.FieldStorage()
 
 def what(numTel, mensaje, hora, minuto):
     try:
@@ -39,8 +20,8 @@ def what(numTel, mensaje, hora, minuto):
             hora_str = str(hora).zfill(2)
             minuto_str = str(minuto).zfill(2)
 
-            # Enviar el mensaje usando pywhatkit
-            wm.sendwhatmsg(f"+{numTel}", mensaje, hora, minuto)
+             # Enviar el mensaje usando pywhatkit
+            wm.sendwhatmsg(f"+{numTel}", mensaje, hora, minuto, wait_time=20)
             print(f"Mensaje programado para enviar a las {hora_str}:{minuto_str} a {numTel}:")
             print(mensaje)
         else:
@@ -49,6 +30,36 @@ def what(numTel, mensaje, hora, minuto):
         print("Error: Hora y minuto deben ser valores numéricos.")
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if "mensaje" in form and "numTel" in form:
+    
+    #Obtenemos los parametros
+    sendMsg = form['mensaje'].value
+    sendNum = form['numTel'].value
+
+    fecha_hora_actual = datetime.datetime.now()
+    # Obtener la hora actual en formato de 24 horas
+    hora_actual = fecha_hora_actual.hour
+    # Obtener el minuto actual
+    minuto_actual = fecha_hora_actual.minute
+
+    #Ejecuta pywhat
+    what(sendNum, sendMsg, hora_actual,minuto_actual+1)
+
+    print(f"Mensaje enviado "+sendMsg)
+
+
+    #funcion 
+    
+else:
+    print("<h1>Error: No se enviaron datos válidos desde el formulario.</h1>")
+
+
+
+
+
+  
+
+
+
+
 
